@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirmar_datos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="net.edwinparedes.tarea_3_2.ConfirmarDatos">
+
+
+    <TextView
+        android:text="@string/txtTituloAct2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTituloActividad"
+        style="@style/ActTitulo"
+        />
+
+    <TextView
+        android:text="@string/txtNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNombreCompleto"
+        style="@style/ViewTheme"
+        />
+
+    <TextView
+        android:text="@string/txtFechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFechaNacimiento"
+        style="@style/ViewTheme"
+        />
+
+    <TextView
+        android:text="@string/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTelefono"
+        style="@style/ViewTheme"
+        />
+    <TextView
+        android:text="@string/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEmail"
+        style="@style/ViewTheme"
+        />
+    <TextView
+        android:text="@string/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDescripcion"
+        style="@style/ViewTheme"
+        />
+
+    <Button
+        android:text="@string/btnEditarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEditarDatos"
+        style="@style/ViewTheme"
+        android:onClick="editarDatos"
+        />
+
+
+</LinearLayout>

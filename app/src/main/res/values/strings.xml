@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Gestión de contactos</string>
+
+    <string name="txtNombreCompleto">Nombre completo</string>
+    <string name="txtFechaNacimiento">Fecha de nacimiento</string>
+    <string name="txtTelefono">Teléfono</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtDescripcion">Descripción Contacto</string>
+
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="btnEditarDatos">Editar Datos</string>
+
+    <string name="parNombreCompleto">NombreCompleto</string>
+    <string name="parFechaNacimiento">FechaNacimiento</string>
+    <string name="parTelefono">Telefono</string>
+    <string name="parEmail">Email</string>
+    <string name="parDescripcion">Descripcion</string>
+
+    <string name="txtTituloAct2">Confirmar datos</string>
+
+</resources>
